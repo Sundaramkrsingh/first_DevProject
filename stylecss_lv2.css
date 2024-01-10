@@ -1,0 +1,31 @@
+div{
+    height: 250px;
+    width: 500px;
+    background-color: green;
+    text-align: center;
+    /*border properties*/
+    border-style: dashed;  /*solid/dotted/dashed*/
+    border-width: 3px;
+    border-color: black;
+
+    /*shorthand way to write the properties of one element
+    border: 3px dashed black;*/
+
+    /*for bringing curves in the border, can use (%) or (px)*/
+    /*at 50% radius it becomes circle*/
+    border-radius: 40px;  
+}
+
+#section1{
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+    text-align: center;
+    border-radius: 20px;
+    border-style: dashed;
+
+    /*padding*/
+    padding-top: 65px;
+    /*shorthand=> padding: 50px; -> for all sides
+    padding: 5px 10px 15px 20px; -> top|right|bottom|left -> clockwise direction*/
+}
