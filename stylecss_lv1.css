@@ -1,0 +1,53 @@
+h1{
+    color: rgb(98,70,80);
+    text-align:center;
+    text-decoration: underline;
+    font-weight: bolder;
+
+    /*text-transform: uppercase/lowercase/capitalize/none;*/
+}
+
+h2{
+    color: chartreuse;
+    text-decoration: yellow double underline;
+    /*font*/
+    font-family:'Courier New';
+}
+
+h3{
+    color: cyan;
+}
+
+#heading1{
+    color: orange;
+}
+
+p{
+    color: tomato;
+    /* setting pixels*/
+    font-size:20px;
+
+    margin-top: 50px;
+
+    /*line-height: it is for giving space btw lines, can be given in pixels*/
+}
+
+button{
+    color: goldenrod;
+    background-color: gray;
+}
+
+body{
+    background-color:seashell;
+    background-image: url(source/my_photo2.jpeg);
+    background-size: cover;
+}
+
+.myClass{
+    color: chartreuse;
+}
+
+/*removing the underline from the links*/
+a{
+    text-decoration: none;
+}
